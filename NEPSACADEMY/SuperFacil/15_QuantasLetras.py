@@ -1,11 +1,10 @@
 s = input()
 c = input()
+count = 0
 letrasIguais = 0
 
-for i in s:
-    if c == len(s):
+for i in list(s):
+    if c == i:
         letrasIguais += 1
-        letrasIguais + letrasIguais
-    
-# ta errado mas acabou o tempo
+
 print(letrasIguais)
